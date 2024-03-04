@@ -1,0 +1,50 @@
+.home-container-main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  background-color: #b9dafa;
+}
+
+.tasks-today {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: #b9dafa;
+
+  overflow-y: scroll;
+}
+
+.information-training {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  align-items: center;
+  width: 100%;
+  min-height: 15%;
+  margin-top: 30px;
+  border-radius: 10px;
+
+  box-shadow: none;
+  transition: border-color 500ms ease;
+}
+.information-training:hover {
+  box-shadow: #0d6efd 0px 0px 0px 3px;
+}
+.card-content {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}

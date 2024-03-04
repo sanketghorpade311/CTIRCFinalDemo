@@ -1,0 +1,25 @@
+* {
+  /*outline: 1px solid lightcoral;*/
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+}
+
+.App-Container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+}
+
+.SideBar-App {
+  width: 15vw;
+}
+.MainBody-App {
+  width: 84vw;
+  height: 98vh;
+  margin-top: 1vh;
+  border-radius: 10px;
+}

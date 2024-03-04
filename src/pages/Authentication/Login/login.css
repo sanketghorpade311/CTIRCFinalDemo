@@ -1,0 +1,45 @@
+#body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.login-text {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+}
+
+input {
+    height: 45px;
+    outline: none;
+}
+
+.submit-button {
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.btn-box a {
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 12px;
+    text-decoration: none;
+}
+
+span:hover {
+    color: rgb(165, 162, 167);
+}

@@ -1,0 +1,72 @@
+{
+  /*<Form style={{ height: "100%" }} onSubmit={handleSubmit()}>
+          <div className="Form-main-div">
+            <div className="row-todo">
+              <div className="Input-Class-Todo">
+                <Form.Group>
+                  <Form.Label style={{ marginLeft: "5px" }}>Date</Form.Label>
+                  <Form.Control size="sm" type="date" />
+                </Form.Group>
+              </div>
+              <div className="Input-Class-Todo">
+                <Form.Group>
+                  <Form.Label style={{ marginLeft: "5px" }}>Time</Form.Label>
+                  <Form.Control size="sm" type="Time" />
+                </Form.Group>
+              </div>
+              <div className="Input-Class-Todo">
+                <Form.Group>
+                  <Form.Label style={{ marginLeft: "5px" }}>
+                    Hall Number
+                  </Form.Label>
+                  <Form.Control
+                    size="sm"
+                    type="Number"
+                    placeholder="Hall No."
+                  />
+                </Form.Group>
+              </div>
+              <div className="Input-Class-Todo">
+                <Form.Group>
+                  <Form.Label style={{ marginLeft: "5px" }}>
+                    Group No
+                  </Form.Label>
+                  <Form.Control size="sm" type="text" placeholder="Group No." />
+                </Form.Group>
+              </div>
+            </div>
+            <div className="row-todo">
+              <div className="Input-Class-Todo-2">
+                <Form.Group>
+                  <Form.Label>Faculty Name</Form.Label>
+                  <Form.Control
+                    size="sm"
+                    type="text"
+                    placeholder="Enter Faculty Name"
+                  />
+                </Form.Group>
+              </div>
+              <div className="Input-Class-Todo-2">
+                <Form.Group>
+                  <Form.Label>Topic</Form.Label>
+                  <Form.Control
+                    size="sm"
+                    type="text"
+                    placeholder="Enter Topic"
+                  />
+                </Form.Group>
+              </div>
+            </div>
+            <div className="row-todo">
+              <Button variant="primary" size="sm" type="submit">
+                Add New Task
+              </Button>
+            </div>
+          </div>
+        </Form>*/
+}
+
+
+function handleSubmit(e) {
+    console.log("Hellllo");
+  }

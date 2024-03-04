@@ -1,0 +1,21 @@
+.SidebarComponent-buttons-container {
+  /* padding-left: 10px; */
+  width: 107%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.C-1,
+.C-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.C-1 Card {
+  width: 100%;
+}
